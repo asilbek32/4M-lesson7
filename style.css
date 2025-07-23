@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  background-color: #121214;
+  padding: 0 200px;
+}
+
+.navbar {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 102px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  font-family: RF Dewi Extended;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 32px;
+}
