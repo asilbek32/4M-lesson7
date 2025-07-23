@@ -7,6 +7,7 @@
 .nav-container {
   background-color: #121214;
   padding: 0 200px;
+  margin-bottom: 49px;
 }
 
 .navbar {
@@ -39,9 +40,193 @@
   color: #ffffff;
 }
 
-.nav-icons{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    gap: 32px;
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 32px;
+}
+
+.hero {
+  padding: 0 100px;
+  margin-bottom: 80px;
+}
+
+.herobg-img {
+  background: url("./assets/images/heroBgImg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  border-radius: 7px;
+}
+
+.hero-p {
+  max-width: 571px;
+  padding: 80px 80px;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-bottom: 63px;
+}
+
+.hero-title h1 {
+  font-family: RF Dewi Expanded;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 51px;
+  leading-trim: NONE;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #171819;
+}
+
+.hero-title p {
+  font-family: RF Dewi Extended;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 19px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #121214;
+}
+
+.hero-title button {
+  width: 250px;
+  height: 66px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 23px;
+  border-radius: 5px;
+  background-color: #121214;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sircles {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+
+.sircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.sircle:hover {
+  background-color: #f0f2f6;
+}
+
+.Shoes {
+  padding: 0 180px;
+  margin-bottom: 80px;
+}
+
+.shoes-carts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+
+.shoes-cart {
+  position: relative;
+  max-width: 318px;
+  margin-bottom: 60px;
+}
+
+.star {
+  position: absolute;
+  top: 33px;
+  right: 25px;
+}
+
+.shoes-carts .shoes-cart .img-container {
+  width: 250px;
+  height: 250px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.ac img {
+  height: 80%;
+}
+
+.cart-name {
+  font-family: RF Dewi Extended;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 19px;
+  leading-trim: NONE;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.cart-price {
+  font-family: RF Dewi Extended;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #3c3c3c;
+}
+
+.section-paragrph {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.section-paragrph h2 {
+  font-family: RF Dewi Expanded;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 31px;
+  leading-trim: NONE;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #121214;
+}
+
+.section-paragrph p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: RF Dewi Extended;
+  font-weight: 800;
+  font-style: Ultrabold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 23px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #000000;
+  border-bottom: 2px solid #121214;
+}
+
+.pagable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
