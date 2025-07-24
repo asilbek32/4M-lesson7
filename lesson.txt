@@ -1,0 +1,24 @@
+Array pprototype 
+bu Array mehodlarini uch ichiga oladigan  asosiy prototip obyekti bo‘lib
+biz unda uzimiz ham yangi methodlar qushishimiz masaln foerch va shu kabi boshqa
+methoflar
+ Masaln some methodi
+ Array.prototype.mySome = function (callback) {
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i], i, this)) {
+      return true;
+    }
+  }
+  return false;
+};
+Object pprototype  bu ham array kabi yangi methoda quyaratishimiz mumkin 
+Objectni iki xil usulda yaratsi mumkin
+let user = {
+    name: "Ali";
+    age: 21
+}
+ 2 yuli construcrt 
+ User(let name, let age){
+    this.name = name;
+    this.age=age
+ }
