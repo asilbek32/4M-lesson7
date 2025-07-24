@@ -571,7 +571,7 @@
   color: #707076;
 }
 
-#check:checked + .menu{
+#check:checked + .menu {
   transform: translateX(0);
 }
 
@@ -586,13 +586,49 @@
 }
 .menu {
   display: flex;
-  align-items:left;
   flex-direction: column;
   gap: 20px;
   transform: translateX(-100%);
   position: absolute;
-  background-color:#121214;
-  color: #FFFFFF;
+  background-color: #121214;
+  color: #ffffff;
+  width: 100%;
+}
+
+.menu img {
+  padding: 20px;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 40px 44px;
+}
+.menu-links a {
+  font-family: RF Dewi Extended;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dropdawn .dropdown-content {
+  display: none;
+  flex-direction: column;
+  padding: 20px;
+  gap: 42px;
+}
+
+
+.dropdawn:hover .dropdown-content {
+  display: flex;
 }
 
 @media (max-width: 420px) {
